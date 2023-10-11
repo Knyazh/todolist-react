@@ -1,0 +1,44 @@
+.todo-container{
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid rgba(255,0,0,0.5);
+   padding: 20px;
+   color:black
+}
+
+.todo-form{
+
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+}
+
+.todo-form input{
+    flex-grow: 6;
+    height: 60px;
+    font-size: 20px;
+    padding: 4px 12px;
+}
+
+.todo-form button{
+    flex-grow: 3;
+    font-size: 20px;
+}
+
+.todo-container ul{
+    padding: 12px;
+    list-style: none;
+
+}
+
+.todo-container ul li{
+    background-color: brown;
+    color: white;
+    padding: 20px ;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.todo-container ul li:last-child{
+    margin-bottom: 0px;
+}
